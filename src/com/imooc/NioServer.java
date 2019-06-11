@@ -56,7 +56,7 @@ public class NioServer {
             if (readyChannel == 0) continue;
 
             /**
-             * 获取可用的channel集合
+             * 获取可用的channel集合   获取
              */
             Set<SelectionKey> selectionKeys = selector.selectedKeys();
 
